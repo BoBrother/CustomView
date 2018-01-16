@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shiping.MainActivity">
+   <com.youth.banner.Banner
+       android:id="@+id/home_banner"
+       android:layout_width="match_parent"
+       android:layout_height="150dp">
+
+   </com.youth.banner.Banner>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="精彩推荐"
+       android:background="#ff0fff"
+       />
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/home_rv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+</LinearLayout>
